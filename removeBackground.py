@@ -24,4 +24,4 @@ def remove_background(path_img,maxSat,maxBri,maxColor,minSat=0,minBri=0,minColor
   #cv2.imshow("orange", mask);
   cv2.waitKey();cv2.destroyAllWindows()
   
-remove_background("image.png",255,255,255,0,0,0)
+remove_background("image",179,255,255,0,0,0)
