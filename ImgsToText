@@ -1,4 +1,5 @@
-::https://github.com/UB-Mannheim/tesseract/wiki
+::Execute the non-commented line
+
 ::all files in bat loc                              prog                image      out  append  text file
 ::  for %x in (*) do         D:\Programas\Tesseract-OCR\tesseract.exe    %x      stdout   >>     result.txt
 ::               -----      FUNCTION     -----
@@ -14,8 +15,13 @@
 ::8º Choose the necessary languages
 ::9º Make sure that Tesseract is in D:\Programas\ if not move it there/change the path below, so the directory to "tesseract.exe" exists
 ::10º Copy this .bat file to C:\Screenshots
-::11º Execute "ImgsToText.bat"
+::11º Open cmd
+::12º type "C:\Screenshots"
+::13º Execute the line below
 ::
 ::To identify images that ain't clear enough i recommend do a small amount each time.
+::Some erros will appear when excuting the command, ignore them.
+::the programm assumes that you gave him an clean image, without background, and a clear distention between the text and the background (now white or black)
+::Depending on the images clean it may not be necessary, if you can automate the process so the all are clean the better.
 
 for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt
