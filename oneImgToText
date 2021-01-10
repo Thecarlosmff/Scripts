@@ -1,3 +1,0 @@
-#https://github.com/UB-Mannheim/tesseract/wiki
-#                           prog              image             out  append   result file
-D:\Programas\Tesseract-OCR>tesseract C:\Screenshots\image.png stdout >>C:\Screenshots\result.txt
