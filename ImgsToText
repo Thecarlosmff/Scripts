@@ -11,13 +11,17 @@
 ::4º Open Visual Novel OCR bat
 ::5º Click "Generate Text Capture Window"
 ::6º Take all the needed prints to the text
-::7º Download and install Tesseract in https://github.com/UB-Mannheim/tesseract/wiki (for windows) check https://github.com/tesseract-ocr for mac/Linux
+::--------------------------------------------STARTS HERE JUST FOR BATCH OCR--------------------------------------------------
+::7º Download and install Tesseract **** in https://github.com/UB-Mannheim/tesseract/wiki (for windows) check https://github.com/tesseract-ocr for mac/Linux 
 ::8º Choose the necessary languages
 ::9º Make sure that Tesseract is in D:\Programas\ if not move it there/change the path below, so the directory to "tesseract.exe" exists
-::10º Copy this .bat file to C:\Screenshots
-::11º Open cmd
-::12º type "C:\Screenshots"
-::13º Execute the line below
+::10º Open cmd
+::11º type "cd C:\Screenshots"
+::12º Execute the line below
+::
+::
+::**** The Visual Novel OCR already have Tesseract, you can use that file, just put it in the right place.
+::
 ::
 ::To identify images that ain't clear enough i recommend do a small amount each time.
 ::Some erros will appear when excuting the command, ignore them.
