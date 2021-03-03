@@ -29,3 +29,5 @@
 ::Depending on the images clean it may not be necessary, if you can automate the process so the all are clean the better.
 
 for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt
+
+::for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt -l jpn
