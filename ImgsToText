@@ -31,3 +31,5 @@
 for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt
 
 ::for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt -l jpn
+::^^^for jpn text, default is english.
+::https://stackoverflow.com/questions/26251599/can-i-test-tesseract-ocr-in-windows-command-line
