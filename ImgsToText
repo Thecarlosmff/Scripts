@@ -1,6 +1,6 @@
 ::Execute the non-commented line
 
-::Win+Shift+S to open "Ferramenta de Recorte", 1 to 6 is useless, yes I am stupid.
+::Win+Shift+S to open use "Recorte e Desenho", 1 to 6 is useless, yes I am stupid.
 
 ::all files in bat loc                              prog                image      out  append  text file
 ::  for %x in (*) do         D:\Programas\Tesseract-OCR\tesseract.exe    %x      stdout   >>     result.txt
