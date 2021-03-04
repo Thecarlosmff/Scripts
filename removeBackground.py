@@ -1,5 +1,9 @@
 #NOT TESTED
 #https://www.python.org/downloads/
+#see NumPy Error on Windows
+#cmd commands for ^^^:
+  #pip install matplotlib
+  #pip install numpy
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
