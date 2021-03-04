@@ -1,0 +1,17 @@
+SIMPLE BATCH BACKGROUND REMOVER:
+for %x in ("C:\Screenshots\images\*") do py remove_bg_full.py exe %x
+
+SIMPLE BACKGROUND REMOVER:
+py remove_bg_simple.py exe 000012
+
+BATCH BACKGROUND REMOVER:
+for %x in ("C:\Screenshots\images\*") do py remove_bg_full.py exe %x
+
+BACKGROUND REMOVER:
+py remove_bg_full.py exe 000012
+
+BATCH IMG TO TEXT (JPN)
+for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt -l jpn
+
+BATCH IMG TO TEXT (ENG)
+for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt
