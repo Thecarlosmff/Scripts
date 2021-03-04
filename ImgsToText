@@ -1,6 +1,7 @@
 ::Execute the non-commented line
 
-::Win+Shift+S to open use "Recorte e Desenho", 1 to 6 is useless, yes I am stupid.
+::Instead of 1 to 6 "Greenshot" is much simpler, only saw the program later...
+::https://getgreenshot.org/downloads/
 
 ::all files in bat loc                              prog                image      out  append  text file
 ::  for %x in (*) do         D:\Programas\Tesseract-OCR\tesseract.exe    %x      stdout   >>     result.txt
