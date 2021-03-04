@@ -18,8 +18,26 @@ import cv2
 def test():
   print("This is a test.")
 
-def test_a(input1="None"):
+def test_a(input1="Hello"):
   print("input1= "+ input1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def test_b(input1,input2="Hello"):
   print("input1= "+ input1)

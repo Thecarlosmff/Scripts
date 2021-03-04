@@ -22,11 +22,11 @@ import cv2
     #limits:
 # Max Hue=       179
 # Max Saturation=255
-# Max Lightness= 255
+# Max Value=     255
 # Max Hue=       179
 # Max Saturation=255
-# Max Lightness= 255
-def exe(path_img,mH=10,mS=100,mV=20,MH=25,MS=255,MV=255,extension='.png'):
+# Max Value=     255
+def exe(path_img,mH=0,mS=0,mV=245,MH=255,MS=10,MV=255,extension='.png'):
   #array_ignore = np.array([".txt",".py"])
   #array_img = np.array([".png","jpg"])
   subpath ="" #usage:                subpath="subfolder\"
@@ -48,8 +48,8 @@ def exe(path_img,mH=10,mS=100,mV=20,MH=25,MS=255,MV=255,extension='.png'):
   RGB_image = cv2.cvtColor(BGR_image, cv2.COLOR_BGR2RGB)  
   HSV_image = cv2.cvtColor(RGB_image, cv2.COLOR_RGB2HSV) # convert from RGB to HSV
 
-  lower_array = np.array([mH, mS, mV])
-  upper_array = np.array([MH, MS, MV])
+  lower_array = np.array([mH, mS, mV],dtype=np.uint8)
+  upper_array = np.array([MH, MS, MV],dtype=np.uint8)
 
   mask = cv2.inRange(HSV_image, lower_array, upper_array)
  

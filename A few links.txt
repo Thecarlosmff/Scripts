@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/22588146/tracking-white-color-using-python-opencv
