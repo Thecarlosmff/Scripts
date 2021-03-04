@@ -1,9 +1,11 @@
 ::Execute the non-commented line
 
+::Win+Shift+S to open "Ferramenta de Recorte", 1 to 6 is useless, yes I am stupid.
+
 ::all files in bat loc                              prog                image      out  append  text file
 ::  for %x in (*) do         D:\Programas\Tesseract-OCR\tesseract.exe    %x      stdout   >>     result.txt
 ::               -----      FUNCTION     -----
-::Convert Image to Text in batch
+::Convert Image to Text in batch            
 ::               ----- HOW TO USE SCRIPT -----
 ::1º Create a Folder named "Screenshot" in "C:\"
 ::2º Download Visual Novel OCR in https://visual-novel-ocr.sourceforge.io
