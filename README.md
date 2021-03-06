@@ -1,2 +1,5 @@
 # Modified-Scripts
-Alterations that I have done changes
+
+ ##  Links for 3rd Party Programs
+* [Tesseract-OCR Download](https://github.com/UB-Mannheim/tesseract/wiki) | [Tesseract-OCR GitHub](https://github.com/tesseract-ocr)
+* [Greenshot](https://getgreenshot.org/downloads/)
