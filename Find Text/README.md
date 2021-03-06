@@ -23,7 +23,7 @@
     * This will use the default setting and apply them to the image in question.
 9. Another example:
     * **py PyRun.py PyFunction.ImageToText.remove_bg image23.png 0 5 130 20 70 255 clean/**
-    * This command will look for colors that the Hue is above 0 and below 20, the saturation is between 5 and 70. While the color is between 130 and 255, for last will the new image on a subdirectory called clean.
+    * This command will look for colors that the Hue is above 0 and below 20, the saturation is between 5 and 70. While the color is between 130 and 255, for last will save the new image on a subdirectory called clean.
     * type **py PyRun.py PyFunction.ImageToText.remove_bg -usage** to check what is what.
     * [HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png), use the -usage to see limits
 10. For batch background remover:
@@ -31,6 +31,6 @@
 
 
 #### Useful links
-[Tacking White Color](https://stackoverflow.com/questions/22588146/tracking-white-color-using-python-opencv)
-[Working with Tesseract ORC](https://stackoverflow.com/questions/26251599/can-i-test-tesseract-ocr-in-windows-command-line)
-[HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png)
+* [Tacking White Color](https://stackoverflow.com/questions/22588146/tracking-white-color-using-python-opencv)
+* [Working with Tesseract ORC](https://stackoverflow.com/questions/26251599/can-i-test-tesseract-ocr-in-windows-command-line)
+* [HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png)
