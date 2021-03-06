@@ -27,7 +27,7 @@
     * type **py PyRun.py PyFunction.ImageToText.remove_bg -usage** to check what is what.
     * [HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png), use the -usage to see limits
 10. For batch background remover:
-    * **for %x in ("C:\Screenshots\*") do py PyRun.py PyFunction.ImageToText.remove_bg "%x"** assuming that the images are at "C:\Screenshots\"
+    * **for %x in ("C:\Screenshots\\*") do py PyRun.py PyFunction.ImageToText.remove_bg "%x"** assuming that the images are at "C:\Screenshots\\"
 
 
 #### Useful links
