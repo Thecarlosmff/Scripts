@@ -1,6 +1,7 @@
-###  Text recognition
+#  Text recognition
 
 ## Instructions
+### 1. Capture and treatment of images
 1. Download [Greenshot](https://getgreenshot.org/downloads/), it allows take fast partial screenshots.
 2. Download [Python 3.9](https://www.python.org/downloads/) may not work in older versions. (Take mental note of the local of instalation)
 3. Unless you have/already use Python you will need to do the following:
@@ -29,6 +30,7 @@
 10. For batch background remover:
     * **for %x in ("C:\Screenshots\\*") do py PyRun.py PyFunction.ImageToText.remove_bg "%x"** assuming that the images are at "C:\Screenshots\\"
 
+### 2. Image to Text
 
 #### Useful links
 * [Tacking White Color](https://stackoverflow.com/questions/22588146/tracking-white-color-using-python-opencv)
