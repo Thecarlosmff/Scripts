@@ -38,3 +38,4 @@
 * [HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png)
 
 https://pnghut.com/png/N4yMSmTZ2H/depth-color-wheel-photography-theory-magenta-vector-hand-drawn-ring-transparent-png
+https://pnghut.com/png/Dqvm1ui1NS/color-wheel-colorfulness-theory-hsl-and-hsv-scheme-hue-transparent-png
