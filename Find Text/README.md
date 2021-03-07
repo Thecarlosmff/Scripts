@@ -36,3 +36,5 @@
 * [Tacking White Color](https://stackoverflow.com/questions/22588146/tracking-white-color-using-python-opencv)
 * [Working with Tesseract ORC](https://stackoverflow.com/questions/26251599/can-i-test-tesseract-ocr-in-windows-command-line)
 * [HSV - Image](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png)
+
+https://pnghut.com/png/N4yMSmTZ2H/depth-color-wheel-photography-theory-magenta-vector-hand-drawn-ring-transparent-png
