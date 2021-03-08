@@ -39,3 +39,4 @@ Use the previous configuration on another image where we have a value between 0-
 
 <img src="https://github.com/Thecarlosmff/Scripts/blob/91dffe3e7f2fc241b602d6f8fdf001abfda1017b/Find%20Text/Images/Shades-of-red2-3.png" alt="Hue Gif" class="inline" width="400" height="300"/>
 
+[HSV](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/HSV_color_solid_cylinder_saturation_gray.png/1280px-HSV_color_solid_cylinder_saturation_gray.png)
