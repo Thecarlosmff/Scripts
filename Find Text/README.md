@@ -45,5 +45,5 @@
     * [Color Wheel Complementary Colors - Hue Ring Chart Transparent PNG](https://pnghut.com/png/sutZgai9HB/color-wheel-complementary-colors-hue-ring-chart-transparent-png) BEST
     * [Color Wheel Complementary Colors Scheme Theory - Analogous - Paint Transparent PNG](https://pnghut.com/png/0BPfpmx6ZE/color-wheel-complementary-colors-scheme-theory-analogous-paint-transparent-png)
 2. Examples:
-    * [Some Colors](https://github.com/Thecarlosmff/Scripts/blob/2507eb501cd3054e5a93092b5c2ea9c38f6acbb6/Find%20Text/Images/Colors/README.md)
+    * [Find the right numbers](https://github.com/Thecarlosmff/Scripts/tree/main/Find%20Text/Images/Colors)
     * [Extracted Text]()
