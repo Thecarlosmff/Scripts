@@ -32,9 +32,9 @@
 
 ### 2. Image to Text
 1. Download [Tesseract-OCR](https://github.com/UB-Mannheim/tesseract/wiki) This program allows OCR, assuming that the image is clear (it works anyways but more prone to mistakes).
-2. Install Tesseract-OCR, select the necessary languages and take note of the installation path particularly the location of the **tesseract.exe** file. In my case, the path is **D:\Programas\Tesseract-OCR\tesseract.exe**
+2. Install Tesseract-OCR, select the necessary languages and take note of the installation path particularly the location of **tesseract.exe**. In my case, the path is **D:\Programas\Tesseract-OCR\tesseract.exe**
 3. Open the command line.
-4. In the command line go to the images path (in may case **C:\Screenshots**) using **cd ABSOLUTE_PATH** (f.e. *cd C:\Screenshots*)
+4. In the command line go to the images path (in my case **C:\Screenshots**) using **cd ABSOLUTE_PATH** (f.e. *cd C:\Screenshots*)
 5. To "convert" all images to text in the command line use **for %x in (*) do TESSERACT.EXE_PATH %x stdout >>OUTPUT_FILE -l LANG**
     * So **for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt** (english, with my settings)
     * **for %x in (*) do D:\Programas\Tesseract-OCR\tesseract.exe %x stdout >>result.txt -l jpn** (japonese, my settings)
