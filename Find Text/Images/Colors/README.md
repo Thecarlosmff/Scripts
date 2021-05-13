@@ -3,7 +3,7 @@
 
 ### Hue
 
-On  the image below we can see the equivalent to Hue being from the range 0 to 1, the Saturation and Value can be any value (*py PyRun.py PyFunction.ImageToText.remove_bg img1.png 0 0 0 1 255 255*). To find the color range you want you need to rotate to the left until you find the right Hue range (0-179). We can call the hue as pure color.
+On  the image below we can see the equivalent to Hue being from the range 0 to 1, the Saturation and Value can be any value (so 0-255). To find the color range you want you need to rotate to the left until you find the right Hue range (0-179). We can call the hue as pure color.
 
 <img src="https://github.com/Thecarlosmff/Scripts/blob/main/Find%20Text/Images/Hue.gif" alt="Hue Gif" class="inline" width="300" height="300"/>
 
@@ -11,8 +11,8 @@ On  the image below we can see the equivalent to Hue being from the range 0 to 1
 
 ### Saturation
 
-Using the Red color as we found in the Hue let's use a Hue between 170-179 & 0-9. In the program, we use *py PyRun.py PyFunction.ImageToText.remove_bg img1.png 170 0 0 9 255 255* this should give us most of the Red, but if we want a specific part let's start by changing the Saturation. The previous image can be tricky because not much really changes if we alter the other parameters. Let's use: [Saturation Image](https://github.com/Thecarlosmff/Scripts/blob/c92781933cc3c9e91e6bf81a89226d8f2b8e6c43/Find%20Text/Images/pnghut_depth-color-wheel-photography-theory-magenta-vector-hand-drawn-ring.png).
-Applying the command above we have
+Using the Red color as we found in the Hue let's use a Hue between 170-179 & 0-9. In the program, we use set the min Hue to 170 and the max Hue to 9 this should give us most of the Red, but if we want a specific part let's start by changing the Saturation. The previous image can be tricky because not much really changes if we alter the other parameters. Let's use: [Saturation Image](https://github.com/Thecarlosmff/Scripts/blob/c92781933cc3c9e91e6bf81a89226d8f2b8e6c43/Find%20Text/Images/pnghut_depth-color-wheel-photography-theory-magenta-vector-hand-drawn-ring.png).
+Applying the settings above we have
 
 <img src="https://github.com/Thecarlosmff/Scripts/blob/e889f06bac5df88aee036a5d78c6b6481ee5576c/Find%20Text/Images/Saturation%20Not%20Applyed.png" alt="Hue Gif" class="inline" width="300" height="300"/>
 
